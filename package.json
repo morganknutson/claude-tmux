@@ -1,11 +1,33 @@
 {
   "name": "claude-tmux",
   "version": "1.0.0",
-  "description": "Multi-agent tmux dashboard for Claude Code",
+  "description": "Run multiple Claude Code agents in parallel, each in its own color-coded tmux pane",
   "type": "module",
+  "license": "MIT",
+  "author": "Morgan Knutson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganknutson/claude-tmux.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "tmux",
+    "ai-agents",
+    "multi-agent",
+    "anthropic",
+    "claude-agent-sdk"
+  ],
   "bin": {
     "claude-tmux": "./bin/claude-tmux.mjs"
   },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.0"
   }
