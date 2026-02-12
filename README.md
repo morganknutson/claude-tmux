@@ -1,6 +1,6 @@
 # claude-tmux
 
-When Claude Code spawns sub-agents, automatically run all in parallel in color-coded tmux panes
+When Claude Code spawns sub-agents, automatically run all in parallel in color-coded tmux panes.
 
 Run multiple [Claude Code](https://docs.anthropic.com/en/docs/claude-code) agents in parallel, each in its own color-coded tmux pane. Give each agent a task and watch them all work simultaneously.
 
